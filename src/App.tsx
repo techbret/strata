@@ -7,6 +7,7 @@ import {
 
 import ComingSoon from './pages/ComingSoon';
 import VideoPage from './pages/VideoPage';
+import ArborValley from './pages/ArborValleyVideo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>          
           <Route path="/" element={<ComingSoon />} />
           <Route path="/cascadia" element={<VideoPage />} />
+          <Route path="/arborvalley" element={<ArborValley />} />
         </Routes>
       </Router>
     </div>
